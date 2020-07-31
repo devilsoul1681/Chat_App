@@ -1,0 +1,65 @@
+body {
+    background-color: #112d4e;
+  }
+  
+  .main {
+    text-align: center;
+    position: relative;
+    width: 200px;
+    margin: 0 auto;
+    top: 130px;
+    background-color: black;
+    padding: 7% 15%;
+  }
+  
+  .main h3 {
+    color: #f9f7f7;
+    position: relative;
+    bottom: 20px;
+    font-size: 30px;
+  }
+  
+  .input {
+    background: none;
+    width: 150%;
+    display: block;
+    text-align: center;
+    border: 2.5px solid #112d4e;
+    border-radius: 24px;
+    outline: none;
+    padding: 14px 10px;
+    box-sizing: border-box;
+    transition: 0.3s;
+    margin: 40px auto;
+    color: white;
+    position: relative;
+    right: 50px;
+  }
+  
+  .input::placeholder {
+    text-align: center;
+    color: white;
+  }
+  .input:focus::placeholder {
+    color: transparent;
+  }
+  
+  .input:focus {
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+  }
+  
+  .button {
+    padding: 6% 8%;
+    border: 1.5px solid limegreen;
+    background: none;
+    color: white;
+    border-radius: 24px;
+    width: 60%;
+  }
+  
+  .button:hover {
+    background-color: limegreen;
+    
+  }
+  
