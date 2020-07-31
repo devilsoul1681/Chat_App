@@ -1,0 +1,7 @@
+always make seperate component with there individual css property file also keep in mind use different classes means(if you have input element in one component with class .input don;t use this .input in another component)
+
+in this we learn how to pass parameter to "/chat" using <Link> in that we use query-string npm package {location} properties of component
+learn use of useEffect
+learn how to use socket.io 
+in this it has mainly we have use to things socket.emit() and socket.on() where first arrugument should be same in both while emit use to send information and on use to catch information
+ 
